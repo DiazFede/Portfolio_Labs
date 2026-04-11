@@ -11,9 +11,9 @@ export function LabPage() {
         <div className="detail-header">
           <div>
             <p className="eyebrow">Not found</p>
-            <h1>This lab does not exist yet.</h1>
+            <h1>This lab is not available yet.</h1>
           </div>
-          <Link to="/">Back to gallery</Link>
+          <Link to="/">Back to labs</Link>
         </div>
       </main>
     )
@@ -29,7 +29,7 @@ export function LabPage() {
           <h1>{lab.title}</h1>
           <p>{lab.summary}</p>
         </div>
-        <Link to="/">Back to gallery</Link>
+        <Link to="/">Back to labs</Link>
       </div>
 
       <LabComponent />

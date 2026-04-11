@@ -9,18 +9,18 @@ export const labCatalog: LabDefinition[] = [
     slug: 'habit-signal',
     title: 'Habit Signal',
     summary:
-      'A daily focus tracker that turns streaks and completion momentum into a lightweight dashboard.',
+      'A compact routine tracker built around streaks, completion state, and a calmer productivity signal.',
     dateLabel: 'Apr 2026',
-    tags: ['React 19', 'Stateful UI', 'Behavior design'],
+    tags: ['React 19', 'Stateful UI', 'Product thinking'],
     component: HabitSignalLab,
   },
   {
     slug: 'inventory-pulse',
     title: 'Inventory Pulse',
     summary:
-      'A fast-moving retail ops dashboard with reorder scoring, live demand signals, and a polished command-center feel.',
+      'A retail operations dashboard centered on reorder pressure, lead-time exposure, and quick decision support.',
     dateLabel: 'Apr 2026',
-    tags: ['React 19', 'TypeScript', 'Portfolio-ready'],
+    tags: ['React 19', 'TypeScript', 'Operations UI'],
     component: InventoryPulseLab,
   },
 ]

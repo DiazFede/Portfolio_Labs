@@ -43,8 +43,8 @@ export function InventoryPulseLab() {
           <p className="lab-kicker">Mini app 01</p>
           <h2>Inventory Pulse</h2>
           <p className="lab-lede">
-            A small but believable retail operations tool focused on demand pressure and reorder
-            timing.
+            A lightweight retail operations view built to surface stock pressure and restock timing
+            without feeling like a throwaway dashboard.
           </p>
         </div>
         <div className="stat-pair">
@@ -88,7 +88,7 @@ export function InventoryPulseLab() {
               </div>
 
               <button type="button" onClick={() => receiveStock(item.sku)}>
-                Receive 6 units
+                Receive shipment
               </button>
             </article>
           )

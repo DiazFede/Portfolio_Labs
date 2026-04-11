@@ -12,7 +12,7 @@ describe('Portfolio Labs app', () => {
     )
 
     expect(
-      screen.getByText(/Micro-products shipped often/i),
+      screen.getByText(/Small product ideas, shipped with enough care/i),
     ).toBeInTheDocument()
   })
 
