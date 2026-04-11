@@ -47,8 +47,8 @@ export function HabitSignalLab() {
           <p className="lab-kicker">Mini app 02</p>
           <h2>Habit Signal</h2>
           <p className="lab-lede">
-            A compact tracker for personal systems, designed to feel sharper than a generic habit
-            checklist.
+            A compact tracker for personal routines, designed to feel more intentional than a generic
+            checklist app.
           </p>
         </div>
         <div className="stat-pair">

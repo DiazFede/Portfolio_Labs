@@ -7,33 +7,33 @@ export function HomePage() {
       <section className="masthead">
         <div className="mast-copy">
           <p className="eyebrow">Portfolio Labs</p>
-          <h1>Micro-products shipped often, not one giant repo abandoned halfway.</h1>
+          <h1>Small product ideas, shipped with enough care to be worth showing.</h1>
           <p className="intro">
-            A creative playground for small apps that feel presentable, testable, and close to a
-            real team workflow. Each lab is meant to ship on its own branch, pass CI, and earn a
-            spot in the portfolio.
+            A collection of compact front-end projects built to stay presentable, testable, and easy
+            to evolve. Each lab is scoped to ship cleanly, document a clear idea, and leave a better
+            signal in the portfolio than one oversized side project.
           </p>
 
           <div className="command-bar">
-            <span>Current rhythm</span>
-            <code>feature/habit-signal - PR - merge</code>
+            <span>Working rhythm</span>
+            <code>branch &gt; PR &gt; CI &gt; merge</code>
           </div>
         </div>
 
         <aside className="mast-panel">
           <div className="panel-card panel-large">
-            <span>Operating mode</span>
-            <strong>Build often</strong>
-            <p>Quick wins, cleaner commits, better GitHub history.</p>
+            <span>Approach</span>
+            <strong>Ship in small slices</strong>
+            <p>Short cycles make the repo easier to maintain and the progress easier to show.</p>
           </div>
           <div className="panel-stack">
             <div className="panel-card">
-              <span>Checks</span>
-              <strong>Lint + test + build</strong>
+              <span>Quality gate</span>
+              <strong>Lint, test, build</strong>
             </div>
             <div className="panel-card">
-              <span>Flow</span>
-              <strong>Branch, PR, merge</strong>
+              <span>Delivery flow</span>
+              <strong>Branch, review, merge</strong>
             </div>
           </div>
         </aside>
@@ -42,7 +42,7 @@ export function HomePage() {
       <section className="gallery">
         <div className="section-copy">
           <p className="eyebrow">Current labs</p>
-          <h2>Small enough to ship, strong enough to show.</h2>
+          <h2>Focused projects with enough shape to stand on their own.</h2>
         </div>
 
         <div className="lab-gallery">
