@@ -1,13 +1,13 @@
 # Portfolio Labs
 
-Coleccion de proyectos chicos pensados para practicar, iterar rapido y mantener un historial de trabajo mas constante.
+A collection of small projects meant for practice, fast iteration, and a more consistent GitHub history.
 
-La idea de este repo es simple: en lugar de depender de un solo proyecto enorme, ir construyendo
-piezas mas acotadas que sirvan para probar ideas, mejorar el criterio visual y sumar señales mas
-reales de trabajo en GitHub.
+The idea behind this repo is simple: instead of relying on one huge side project, keep building
+smaller pieces that are useful for testing ideas, improving visual judgment, and showing more
+realistic work signals on GitHub.
 
-Cada lab busca ser lo bastante chico como para cerrarlo sin perder meses, pero lo bastante cuidado
-como para que valga la pena mostrarlo.
+Each lab is meant to be small enough to finish without dragging on for months, but polished enough
+to be worth showing.
 
 ## Stack
 
@@ -27,8 +27,8 @@ pnpm test:run
 pnpm build
 ```
 
-## Forma de trabajo
+## Workflow
 
-La idea es trabajar cada mejora o experimento en una branch corta, abrir pull request y dejar que
-corran los checks antes de mergear. Asi el repo queda mas ordenado y tambien refleja mejor un flujo
-de trabajo real.
+The plan is to handle each improvement or experiment in a short-lived branch, open a pull request,
+and let the checks run before merging. That keeps the repo cleaner and makes the workflow look much
+closer to real team work.
