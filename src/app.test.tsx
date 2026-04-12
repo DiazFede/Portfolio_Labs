@@ -69,4 +69,20 @@ describe('Portfolio Labs app', () => {
       screen.getByRole('heading', { name: /This lab is not available yet/i }),
     ).toBeInTheDocument()
   })
+
+  it('updates freelance cashflow totals after marking an invoice as paid', () => {
+    render(
+      <MemoryRouter initialEntries={['/labs/freelance-cashflow']}>
+        <App />
+      </MemoryRouter>,
+    )
+
+    expect(screen.getAllByText('$1,490', { selector: 'strong' }).length).toBeGreaterThan(0)
+
+    fireEvent.click(screen.getAllByRole('button', { name: /Mark as paid/i })[0])
+
+    expect(screen.getByText('$2,050', { selector: 'strong' })).toBeInTheDocument()
+    expect(screen.getAllByText('$640', { selector: 'strong' }).length).toBeGreaterThan(0)
+    expect(screen.getAllByText('Paid', { selector: 'strong' }).length).toBeGreaterThan(0)
+  })
 })
