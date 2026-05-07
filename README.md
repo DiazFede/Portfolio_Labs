@@ -32,3 +32,11 @@ pnpm build
 The plan is to handle each improvement or experiment in a short-lived branch, open a pull request,
 and let the checks run before merging. That keeps the repo cleaner and makes the workflow look much
 closer to real team work.
+
+## Python Labs
+
+This repo also includes small Python projects that are intentionally scoped to stay practical and
+easy to review.
+
+- `python_labs/task_scoreboard`: a CLI task tracker with JSON persistence, completion flow, and
+  simple productivity stats.
